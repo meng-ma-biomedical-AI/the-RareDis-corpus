@@ -1,0 +1,8 @@
+T1	RAREDISEASE 0 35	Diffuse pulmonary lymphangiomatosis
+T2	RAREDISEASE 406 441	diffuse pulmonary lymphangiomatosis
+T3	ANAPHOR 136 148	the disorder
+R1	Anaphora Arg1:T1 Arg2:T3	
+T4	ANAPHOR 181 193	The disorder
+R2	Anaphora Arg1:T1 Arg2:T4	
+T5	ANAPHOR 302 314	The disorder
+R3	Anaphora Arg1:T2 Arg2:T5	

@@ -1,0 +1,48 @@
+T2	SKINRAREDISEASE 106 127	xeroderma pigmentosum
+T3	DISEASE 191 209	mental retardation
+T5	DISEASE 294 306	hypogonadism
+T6	SKINRAREDISEASE 309 330	Xeroderma pigmentosum
+T7	SIGN 436 452	photosensitivity
+T9	DISEASE 695 707	microcephaly
+T10	SIGN 764 770	ataxia
+T11	SIGN 788 797	areflexia
+T1	SKINRAREDISEASE 0 29	De Sanctis-Cacchione syndrome
+T15	SIGN 81 127	skin and eye symptoms of xeroderma pigmentosum
+T16	SKINRAREDISEASE 129 131	XP
+T17	SIGN 163 189	neurological abnormalities
+T18	SIGN 191 209	mental retardation
+T19	SIGN 236 244	dwarfism
+T20	SIGN 294 306	hypogonadism
+T21	DISEASE 350 374	inherited skin disorders
+T22	SIGN 455 474	skin discolorations
+T25	SIGN 573 599	neurological abnormalities
+T8	SKINRAREDISEASE 616 646	De Sanctis- Cacchione syndrome
+T26	SIGN 651 667	low intelligence
+T28	SIGN 695 707	microcephaly
+T29	SIGN 812 824	hyporeflexia
+T12	SKINRAREDISEASE 836 865	De Sanctis-Cacchione syndrome
+T13	SKINRAREDISEASE 912 941	De Sanctis-Cacchione syndrome
+T14	SKINRAREDISEASE 1397 1426	De Sanctis-Cacchione syndrome
+R1	Produces Arg1:T1 Arg2:T15	
+R2	Produces Arg1:T1 Arg2:T17	
+R3	Produces Arg1:T1 Arg2:T18	
+R5	Produces Arg1:T1 Arg2:T19	
+R6	Produces Arg1:T1 Arg2:T20	
+R7	Is_a Arg1:T6 Arg2:T21	
+R8	Produces Arg1:T6 Arg2:T7	
+R9	Produces Arg1:T6 Arg2:T22	
+R12	Produces Arg1:T8 Arg2:T25	
+R13	Produces Arg1:T8 Arg2:T26	
+R15	Produces Arg1:T8 Arg2:T28	
+R16	Produces Arg1:T8 Arg2:T10	
+R17	Produces Arg1:T8 Arg2:T11	
+R18	Produces Arg1:T8 Arg2:T29	
+T30	ANAPHOR 1125 1138	this disorder
+R19	Anaphora Arg1:T13 Arg2:T30	
+R20	Is_acron Arg1:T16 Arg2:T2	
+T31	DISEASE 525 538	eye disorders
+T32	DISEASE 543 555	skin cancers
+R21	Increases_risk_of Arg1:T6 Arg2:T31	
+R22	Increases_risk_of Arg1:T6 Arg2:T32	
+T33	SYMPTOM 1292 1313	neurological symptoms
+R23	Produces Arg1:T30 Arg2:T33	

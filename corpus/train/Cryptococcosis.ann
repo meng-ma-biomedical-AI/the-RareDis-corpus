@@ -1,0 +1,32 @@
+T1	RAREDISEASE 0 14	Cryptococcosis
+T2	RAREDISEASE 46 60	Cryptococcosis
+T3	DISEASE 315 328	HIV infection
+T4	RAREDISEASE 381 395	Cryptococcosis
+T5	DISEASE 619 625	cancer
+T7	RAREDISEASE 749 763	Cryptococcosis
+T8	SIGN 283 299	lowered immunity
+T9	SIGN 552 571	immune deficiencies
+T10	SIGN 575 591	lowered immunity
+T11	DISEASE 683 691	HIV-AIDS
+T13	ANAPHOR 73 86	The infection
+R1	Anaphora Arg1:T2 Arg2:T13	
+T14	ANAPHOR 224 237	the infection
+R2	Anaphora Arg1:T2 Arg2:T14	
+R3	Produces Arg1:T3 Arg2:T8	
+T15	ANAPHOR 363 379	these infections
+R4	Anaphora Arg1:T2 Arg2:T15	
+R5	Increases_risk_of Arg1:T3 Arg2:T15	
+T16	ANAPHOR 445 447	It
+R6	Anaphora Arg1:T4 Arg2:T16	
+R7	Produces Arg1:T5 Arg2:T10	
+R8	Produces Arg1:T5 Arg2:T9	
+R9	Produces Arg1:T11 Arg2:T10	
+R10	Produces Arg1:T11 Arg2:T9	
+T6	ANAPHOR 726 747	this fungal infection
+R11	Anaphora Arg1:T4 Arg2:T6	
+R12	Increases_risk_of Arg1:T11 Arg2:T6	
+R13	Increases_risk_of Arg1:T5 Arg2:T6	
+T12	ANAPHOR 804 806	it
+R14	Anaphora Arg1:T7 Arg2:T12	
+T17	ANAPHOR 912 914	It
+R15	Anaphora Arg1:T7 Arg2:T17	

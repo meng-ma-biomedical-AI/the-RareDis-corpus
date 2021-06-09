@@ -1,0 +1,9 @@
+T1	RAREDISEASE 323 340	craniopharyngioma
+T2	RAREDISEASE 0 18	Craniopharyngiomas
+T3	RAREDISEASE 388 406	craniopharyngiomas
+T4	RAREDISEASE 111 130	intracranial tumors
+R1	Is_a Arg1:T2 Arg2:T4	
+T5	ANAPHOR 144 148	They
+T6	ANAPHOR 269 273	They
+R2	Anaphora Arg1:T2 Arg2:T5	
+R3	Anaphora Arg1:T2 Arg2:T6	
