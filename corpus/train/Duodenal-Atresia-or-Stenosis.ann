@@ -1,5 +1,0 @@
-T1	RAREDISEASE 0 28	Duodenal atresia or stenosis
-T2	RAREDISEASE 152 168	duodenal atresia
-T3	RAREDISEASE 230 258	Duodenal atresia or stenosis
-T4	DISEASE 39 68	congenital digestive disorder
-R1	Is_a Arg1:T1 Arg2:T4	

@@ -1,7 +1,0 @@
-T1	RAREDISEASE 38 58	abetalipoproteinemia
-T2	RAREDISEASE 160 180	Abetalipoproteinemia
-T3	RAREDISEASE 279 299	Abetalipoproteinemia
-T4	ANAPHOR 75 77	it
-R1	Anaphora Arg1:T1 Arg2:T4	
-T5	ANAPHOR 265 277	the disorder
-R2	Anaphora Arg1:T2 Arg2:T5	

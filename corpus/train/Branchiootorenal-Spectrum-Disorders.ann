@@ -1,6 +1,0 @@
-T1	RAREDISEASE 0 16	BOR/BOS syndrome
-T2	RAREDISEASE 121 137	BOR/BOS syndrome
-T3	SIGN 196 213	profound deafness
-R1	Produces Arg1:T2 Arg2:T3	
-T4	ANAPHOR 106 119	this disorder
-R2	Anaphora Arg1:T1 Arg2:T4	

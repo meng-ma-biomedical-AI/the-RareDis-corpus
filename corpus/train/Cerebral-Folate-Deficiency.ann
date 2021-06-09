@@ -1,3 +1,0 @@
-T1	RAREDISEASE 31 57	cerebral folate deficiency
-T2	ANAPHOR 127 141	this condition
-R1	Anaphora Arg1:T1 Arg2:T2	

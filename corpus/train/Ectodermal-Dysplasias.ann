@@ -1,3 +1,0 @@
-T2	SKINRAREDISEASE 0 21	Ectodermal Dysplasias
-T1	ANAPHOR 209 220	the disease
-R1	Anaphora Arg1:T2 Arg2:T1	

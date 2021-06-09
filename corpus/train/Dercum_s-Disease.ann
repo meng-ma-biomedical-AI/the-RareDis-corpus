@@ -1,9 +1,0 @@
-T1	RAREDISEASE 0 16	Dercum’s disease
-T2	RAREDISEASE 129 145	Dercum’s disease
-T3	RAREDISEASE 376 392	Dercum’s disease
-T4	RAREDISEASE 516 532	Dercum’s disease
-T5	RAREDISEASE 660 676	Dercum’s disease
-T6	ANAPHOR 324 326	it
-R1	Anaphora Arg1:T2 Arg2:T6	
-T7	ANAPHOR 405 417	The disorder
-R2	Anaphora Arg1:T3 Arg2:T7	
