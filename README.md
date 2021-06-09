@@ -1,2 +1,2 @@
 # RareDis
-It contains an annotated corpus with rare diseases, their signs and their symptoms.
+This repository contains the data and code created under the project NLP4Rare-cm-uc3m. 
