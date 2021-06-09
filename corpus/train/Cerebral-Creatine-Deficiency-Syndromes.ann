@@ -1,0 +1,19 @@
+T1	RAREDISEASE 40 44	CCDS
+T2	RAREDISEASE 465 480	GAMT deficiency
+T3	RAREDISEASE 704 719	GAMT deficiency
+T4	RAREDISEASE 823 827	CCDS
+T5	DISEASE 870 884	cerebral palsy
+T6	DISEASE 947 953	autism
+T7	RAREDISEASE 986 990	CCDS
+T8	RAREDISEASE 1089 1093	CCDS
+T9	RAREDISEASE 1295 1299	CCDS
+T10	RAREDISEASE 0 38	Cerebral creatine deficiency syndromes
+T11	SIGN 50 86	inborn errors of creatine metabolism
+T12	SIGN 93 146	interrupt the formation or transportation of creatine
+T13	RAREDISEASE 359 362	CTD
+T14	RAREDISEASE 759 763	AGAT
+T15	DISEASE 957 984	global developmental delays
+R1	Is_acron Arg1:T1 Arg2:T10	
+R2	Produces Arg1:T10 Arg2:T11	
+R3	Produces Arg1:T10 Arg2:T12	
+T16	RAREDISEASE 415 449	X-linked intellectual disabilities

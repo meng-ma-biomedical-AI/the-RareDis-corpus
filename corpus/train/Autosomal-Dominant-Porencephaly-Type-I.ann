@@ -1,0 +1,6 @@
+T1	RAREDISEASE 0 38	Autosomal dominant porencephaly type I
+T2	RAREDISEASE 151 189	Autosomal dominant porencephaly type I
+T3	ANAPHOR 100 112	the disorder
+R1	Anaphora Arg1:T1 Arg2:T3	
+T4	ANAPHOR 281 295	this disorder.
+R2	Anaphora Arg1:T2 Arg2:T4	

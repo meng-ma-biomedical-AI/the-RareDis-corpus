@@ -1,0 +1,33 @@
+T1	RAREDISEASE 0 14	Caroli disease
+T2	RAREDISEASE 223 237	Caroli disease
+T3	RAREDISEASE 398 413	Caroli syndrome
+T5	DISEASE 592 611	portal hypertension
+T6	RAREDISEASE 626 640	Caroli disease
+T7	DISEASE 710 735	polycystic kidney disease
+T8	RAREDISEASE 791 805	Caroli disease
+T9	SIGN 1097 1109	hepatomegaly
+T10	SIGN 1114 1126	splenomegaly
+T11	SYMPTOM 1132 1157	intermittent stomach pain
+T12	RAREDISEASE 1311 1325	Caroli disease
+T13	SIGN 137 160;80 90;92 94	intrahepatic bile ducts dilatation of
+T15	SIGN 318 328;330 340	bile ducts dilatation
+T4	SIGN 517 544	congenital hepatic fibrosis
+T16	SIGN 592 611	portal hypertension
+T17	DISEASE 759 772	liver failure
+T18	SIGN 710 735	polycystic kidney disease
+T19	SIGN 759 772	liver failure
+R1	Produces Arg1:T1 Arg2:T13	
+R3	Produces Arg1:T2 Arg2:T15	
+R4	Produces Arg1:T3 Arg2:T4	
+R5	Produces Arg1:T3 Arg2:T16	
+R6	Produces Arg1:T6 Arg2:T18	
+R7	Produces Arg1:T6 Arg2:T19	
+R8	Produces Arg1:T8 Arg2:T9	
+R9	Produces Arg1:T8 Arg2:T10	
+R10	Produces Arg1:T8 Arg2:T11	
+T20	DISEASE 25 43	inherited disorder
+R11	Is_a Arg1:T1 Arg2:T20	
+T21	ANAPHOR 937 949	the disorder
+R12	Anaphora Arg1:T8 Arg2:T21	
+T14	SIGN 318 328;344 351	bile ducts ectasia
+R2	Produces Arg1:T2 Arg2:T14	

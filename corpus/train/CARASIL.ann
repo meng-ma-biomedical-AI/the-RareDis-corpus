@@ -1,0 +1,41 @@
+T1	RAREDISEASE 0 7	CARASIL
+T2	DISEASE 29 45	genetic disorder
+T3	RAREDISEASE 136 143	CARASIL
+T4	RAREDISEASE 258 265	CARASIL
+T5	RAREDISEASE 369 376	CARASIL
+T7	DISEASE 626 644	pseudobulbar palsy
+T8	DISEASE 646 664	Pseudobulbar palsy
+T9	DISEASE 784 792	dementia
+T11	RAREDISEASE 906 913	CARASIL
+T12	RAREDISEASE 945 952	CARASIL
+T13	RAREDISEASE 1171 1178	CARASIL
+T14	RAREDISEASE 1221 1228	CARASIL
+T15	SIGN 423 447	white matter involvement
+T16	SIGN 451 464	leukoaraiosis
+T17	SIGN 592 602	spasticity
+T18	SIGN 626 644	pseudobulbar palsy
+T19	SIGN 709 726	difficult chewing
+T20	SIGN 709 718;728 738	difficult swallowing
+T21	SIGN 709 718;743 749	difficult speech
+T22	SIGN 763 779	gait disturbance
+T23	SIGN 784 792	dementia
+T24	SIGN 836 856	stroke-like episodes
+R1	Is_a Arg1:T1 Arg2:T2	
+T10	SIGN 71 117	damage to the small blood vessels in the brain
+R2	Produces Arg1:T1 Arg2:T10	
+T25	SIGN 179 186	strokes
+R3	Produces Arg1:T3 Arg2:T25	
+T26	SIGN 278 315	damage to various small blood vessels
+R4	Produces Arg1:T4 Arg2:T26	
+R5	Produces Arg1:T5 Arg2:T15	
+R6	Produces Arg1:T5 Arg2:T16	
+R7	Produces Arg1:T5 Arg2:T17	
+R9	Produces Arg1:T5 Arg2:T18	
+R10	Produces Arg1:T8 Arg2:T20	
+R11	Produces Arg1:T8 Arg2:T19	
+R12	Produces Arg1:T8 Arg2:T21	
+T28	ANAPHOR 1324 1338	this condition
+R16	Anaphora Arg1:T14 Arg2:T28	
+R14	Produces Arg1:T5 Arg2:T22	
+R15	Produces Arg1:T5 Arg2:T23	
+R8	Produces Arg1:T5 Arg2:T24	

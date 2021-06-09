@@ -1,0 +1,50 @@
+T1	RAREDISEASE 0 17	Cervical dystonia
+T2	RAREDISEASE 33 54	spasmodic torticollis
+T3	DISEASE 66 87	neurological disorder
+T4	RAREDISEASE 148 162	focal dystonia
+T5	RAREDISEASE 185 202	Cervical dystonia
+T6	SIGN 466 472	tremor
+T7	RAREDISEASE 490 507	cervical dystonia
+T8	SYMPTOM 557 561	pain
+T9	RAREDISEASE 712 729	Cervical dystonia
+T10	RAREDISEASE 829 846	cervical dystonia
+T11	RAREDISEASE 931 948	cervical dystonia
+T12	RAREDISEASE 1028 1045	Cervical dystonia
+T13	RAREDISEASE 1127 1141	focal dystonia
+T14	RAREDISEASE 1164 1181	Cervical dystonia
+T15	RAREDISEASE 1282 1299	Cervical dystonia
+T16	RAREDISEASE 1379 1396	cervical dystonia
+T17	RAREDISEASE 1514 1531	cervical dystonia
+T18	RAREDISEASE 1690 1707	cervical dystonia
+T19	SIGN 235 266	muscle contractions in the neck
+T20	SIGN 278 296;310 330	abnormal movements of the neck and head
+T21	SIGN 278 286;301 330	abnormal postures of the neck and head
+T22	SYMPTOM 566 576	discomfort
+T23	SYMPTOM 588 598	difficulty
+T24	SIGN 610 627	abnormal postures
+T25	SIGN 2001 2017	nerve irritation
+R1	Is_synon Arg1:T2 Arg2:T1	
+R2	Is_a Arg1:T1 Arg2:T3	
+R3	Produces Arg1:T5 Arg2:T19	
+T26	ANAPHOR 118 120	It
+R4	Anaphora Arg1:T1 Arg2:T26	
+R5	Produces Arg1:T5 Arg2:T21	
+R6	Produces Arg1:T5 Arg2:T20	
+T27	ANAPHOR 522 534	the disorder
+R7	Anaphora Arg1:T7 Arg2:T27	
+R8	Produces Arg1:T27 Arg2:T8	
+R9	Produces Arg1:T27 Arg2:T22	
+R10	Produces Arg1:T27 Arg2:T23	
+R11	Produces Arg1:T27 Arg2:T24	
+T28	ANAPHOR 629 631	It
+R12	Anaphora Arg1:T7 Arg2:T28	
+R13	Produces Arg1:T18 Arg2:T25	
+R14	Is_a Arg1:T26 Arg2:T4	
+T29	SIGN 441 447	spasms
+R15	Produces Arg1:T5 Arg2:T29	
+T30	SIGN 362 374;382 391	contractions sustained
+R16	Produces Arg1:T5 Arg2:T30	
+T31	ANAPHOR 1097 1099	It
+R17	Anaphora Arg1:T12 Arg2:T31	
+R18	Is_a Arg1:T31 Arg2:T13	
+R19	Produces Arg1:T5 Arg2:T6	

@@ -1,0 +1,37 @@
+T3	SKINRAREDISEASE 399 412	COFS syndrome
+T5	SKINRAREDISEASE 537 554	Cockayne syndrome
+T7	SKINRAREDISEASE 556 593	Cerebro-oculo-facio-skeletal syndrome
+T9	SKINRAREDISEASE 717 730	COFS syndrome
+T11	SKINRAREDISEASE 1058 1071	COFS syndrome
+T13	SKINRAREDISEASE 0 28;36 44	Cerebro-oculo-facio-skeletal syndrome
+T1	SKINRAREDISEASE 30 34	COFS
+T14	DISEASE 50 79	genetic degenerative disorder
+T15	SIGN 168 191	growth failure at birth
+T16	SIGN 196 233	little or no neurological development
+T17	SIGN 235 270	structural abnormalities of the eye
+T18	SIGN 275 301	fixed bending of the spine
+T19	SIGN 276 295;306 312	ixed bending of the joints
+T20	SIGN 315 341	Abnormalities of the skull
+T21	SIGN 315 335;343 347	Abnormalities of the face
+T2	SIGN 315 335;349 354	Abnormalities of the limbs
+T4	SKINRAREDISEASE 467 471	COFS
+T6	SIGN 812 831;877 895	displacement of the second metatarsals
+T8	SIGN 931 951	reduced white matter
+T10	SIGN 957 977	gray matter mottling
+T12	ANAPHOR 135 147	The disorder
+R4	Produces Arg1:T12 Arg2:T15	
+R5	Produces Arg1:T12 Arg2:T16	
+R6	Produces Arg1:T12 Arg2:T17	
+R7	Produces Arg1:T12 Arg2:T19	
+R8	Produces Arg1:T12 Arg2:T18	
+R9	Produces Arg1:T12 Arg2:T2	
+R10	Produces Arg1:T12 Arg2:T21	
+R11	Produces Arg1:T12 Arg2:T20	
+T22	ANAPHOR 637 639	It
+R12	Anaphora Arg1:T7 Arg2:T22	
+R13	Produces Arg1:T9 Arg2:T6	
+R14	Produces Arg1:T9 Arg2:T8	
+R15	Produces Arg1:T9 Arg2:T10	
+R1	Is_acron Arg1:T13 Arg2:T1	
+R2	Is_a Arg1:T13 Arg2:T14	
+R3	Anaphora Arg1:T13 Arg2:T12	

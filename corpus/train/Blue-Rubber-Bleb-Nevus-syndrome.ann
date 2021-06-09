@@ -1,0 +1,49 @@
+T2	SKINRAREDISEASE 0 31	Blue rubber bleb nevus syndrome
+T6	SIGN 1094 1115	mild or severe anemia
+T7	SIGN 1244 1259	intussusception
+T9	SKINRAREDISEASE 1378 1409	Blue rubber bleb nevus syndrome
+T13	SKINRAREDISEASE 1593 1624	Blue Rubber Bleb Nevus Syndrome
+T1	SKINRAREDISEASE 33 38	BRBNS
+T3	DISEASE 64 72;74 82	vascular disorder
+T4	SIGN 138 171;238 249;258 280	Multiple distinctive skin lesions at birth or during early childhood
+T16	SIGN 282 319;347 382	Lesions in the gastrointestinal tract during childhood or early adulthood
+T17	SIGN 388 395	lesions
+T18	SIGN 400 431	multifocal venous malformations
+T19	SIGN 448 491	abnormal embryonic blood vessel development
+T20	SKINRAREDISEASE 493 498	BRBNS
+T21	SIGN 519 553;577 621	soft, elevated lesions on the skin that are dark blue, red, purple-red or black
+T22	SIGN 519 541;562 621	soft, elevated lesions under the skin that are dark blue, red, purple-red or black
+T23	SIGN 636 656	venous malformations
+T24	SIGN 811 818;847 870	lesions more apparent over time
+T25	SKINRAREDISEASE 962 967	BRBNS
+T26	SIGN 1042 1059	lesions in the GI
+T5	SIGN 1190 1200	GI lesions
+T27	SIGN 1283 1305	Skeletal abnormalities
+T28	SIGN 1310 1340	venous malformations in muscle
+T29	SKINRAREDISEASE 1371 1376	BRBNS
+T8	SKINRAREDISEASE 1739 1744	BRBNS
+T10	SKINRAREDISEASE 1883 1888	BRBNS
+T11	DISEASE 1094 1115	mild or severe anemia
+T32	SIGN 1560 1591	multifocal venous malformations
+R1	Is_acron Arg1:T1 Arg2:T2	
+R2	Is_a Arg1:T2 Arg2:T3	
+R10	Produces Arg1:T20 Arg2:T22	
+R11	Produces Arg1:T20 Arg2:T21	
+R12	Produces Arg1:T20 Arg2:T23	
+R13	Produces Arg1:T20 Arg2:T24	
+R14	Produces Arg1:T25 Arg2:T26	
+R15	Produces Arg1:T25 Arg2:T6	
+R16	Produces Arg1:T25 Arg2:T5	
+R17	Produces Arg1:T25 Arg2:T7	
+R18	Produces Arg1:T29 Arg2:T28	
+R19	Produces Arg1:T29 Arg2:T27	
+T15	ANAPHOR 1471 1484	the condition
+R20	Anaphora Arg1:T9 Arg2:T15	
+R21	Produces Arg1:T15 Arg2:T32	
+T12	ANAPHOR 202 215	this disorder
+R3	Anaphora Arg1:T2 Arg2:T12	
+R4	Produces Arg1:T12 Arg2:T4	
+R5	Produces Arg1:T12 Arg2:T16	
+R6	Produces Arg1:T12 Arg2:T17	
+R7	Produces Arg1:T12 Arg2:T18	
+R8	Produces Arg1:T12 Arg2:T19	

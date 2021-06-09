@@ -1,0 +1,8 @@
+T1	SKINRAREDISEASE 0 22	Biotinidase deficiency
+T2	SKINRAREDISEASE 525 528	BTD
+T3	SKINRAREDISEASE 658 661	BTD
+T4	SIGN 0 22	Biotinidase deficiency
+R1	Produces Arg1:T1 Arg2:T4	
+R2	Is_acron Arg1:T2 Arg2:T1	
+T5	ANAPHOR 303 314	the disease
+R3	Anaphora Arg1:T1 Arg2:T5	
