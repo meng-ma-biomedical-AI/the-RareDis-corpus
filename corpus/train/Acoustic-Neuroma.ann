@@ -1,0 +1,20 @@
+T1	RAREDISEASE 3 19	acoustic neuroma
+T2	RAREDISEASE 37 58	vestibular schwannoma
+T5	SYMPTOM 491 499	tinnitus
+T6	SYMPTOM 505 514	dizziness
+T7	RAREDISEASE 548 564	acoustic neuroma
+T8	RAREDISEASE 698 714	acoustic neuroma
+T9	RAREDISEASE 806 822	acoustic neuroma
+T3	SIGN 322 345	hearing loss in one ear
+T10	SYMPTOM 518 527	imbalance
+R2	Produces Arg1:T1 Arg2:T3	
+R4	Produces Arg1:T1 Arg2:T5	
+R5	Produces Arg1:T1 Arg2:T6	
+R6	Produces Arg1:T1 Arg2:T10	
+R1	Is_synon Arg1:T1 Arg2:T2	
+T11	SIGN 114 141;70 99	on the eighth cranial nerve benign (non-cancerous) growth
+R7	Produces Arg1:T1 Arg2:T11	
+T12	SIGN 580 627	tumor pressing against the eighth cranial nerve
+R8	Produces Arg1:T7 Arg2:T12	
+T14	ANAPHOR 745 747	it
+R10	Anaphora Arg1:T8 Arg2:T14	

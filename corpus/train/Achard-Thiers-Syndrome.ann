@@ -1,0 +1,18 @@
+T4	DISEASE 338 342	PCOS
+T1	RAREDISEASE 0 22	Achard-Thiers syndrome
+T2	SIGN 112 156	type 2 (insulin-resistant) diabetes mellitus
+T8	SIGN 161 185	signs of androgen excess
+T6	RAREDISEASE 432 454	Achard-Thiers Syndrome
+T11	RAREDISEASE 601 623	Achard-Thiers syndrome
+T7	RAREDISEASE 703 719	hyperinsulinemic
+T3	DISEASE 112 156	type 2 (insulin-resistant) diabetes mellitus
+T5	DISEASE 170 185	androgen excess
+R1	Produces Arg1:T1 Arg2:T2	
+T9	ANAPHOR 206 219	this syndrome
+T10	ANAPHOR 530 543	this disorder
+R5	Anaphora Arg1:T6 Arg2:T10	
+T12	ANAPHOR 361 373	the syndrome
+R6	Increases_risk_of Arg1:T4 Arg2:T12	
+R2	Produces Arg1:T1 Arg2:T8	
+R3	Anaphora Arg1:T1 Arg2:T9	
+R4	Anaphora Arg1:T1 Arg2:T12	
