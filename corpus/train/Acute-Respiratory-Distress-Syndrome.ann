@@ -1,0 +1,18 @@
+T1	SIGN 42 62	respiratory distress
+T3	DISEASE 373 397	congestive heart failure
+T4	DISEASE 474 478	ARDS
+T5	SIGN 78 111	low levels of oxygen in the blood
+T2	SIGN 281 302	fluid in the air sacs
+T6	SIGN 311 333	“wet” breathing sounds
+T7	DISEASE 159 165	sepsis
+T8	DISEASE 167 176	pneumonia
+T9	DISEASE 181 187	trauma
+R1	Produces Arg1:T4 Arg2:T1	
+R2	Produces Arg1:T4 Arg2:T5	
+R3	Increases_risk_of Arg1:T7 Arg2:T4	
+R4	Increases_risk_of Arg1:T8 Arg2:T4	
+R5	Increases_risk_of Arg1:T9 Arg2:T4	
+R6	Produces Arg1:T4 Arg2:T2	
+R7	Produces Arg1:T4 Arg2:T6	
+T10	ANAPHOR 455 469	that condition
+R8	Anaphora Arg1:T3 Arg2:T10	

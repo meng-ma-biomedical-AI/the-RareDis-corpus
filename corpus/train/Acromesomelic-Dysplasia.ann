@@ -1,0 +1,31 @@
+T1	RAREDISEASE 0 23	Acromesomelic dysplasia
+T2	SIGN 124 137	short stature
+T3	SIGN 423 436	short stature
+T4	SIGN 147 166	short-limb dwarfism
+T5	SIGN 201 210	acromelia
+T6	SIGN 215 224	mesomelia
+T7	SIGN 226 235	Mesomelia
+T8	SIGN 349 358	Acromelia
+T9	SIGN 564 576	short hands,
+T10	RAREDISEASE 737 761	Hunter-Thompson type ADM
+T11	RAREDISEASE 793 811	Maroteaux type AMD
+T12	RAREDISEASE 871 885	Grebe type ADM
+T13	DISEASE 46 55;57 86	inherited progressive skeletal disorder
+T14	SIGN 564 569;577 584	short fingers
+T15	SIGN 564 569;586 590	short feet
+T16	SIGN 564 569;596 600	short toes
+T18	DISEASE 147 166	short-limb dwarfism
+R1	Is_a Arg1:T1 Arg2:T13	
+R2	Produces Arg1:T1 Arg2:T2	
+R3	Produces Arg1:T1 Arg2:T4	
+R6	Produces Arg1:T1 Arg2:T7	
+R7	Produces Arg1:T1 Arg2:T8	
+R8	Produces Arg1:T1 Arg2:T3	
+T17	ANAPHOR 168 180	The disorder
+R4	Anaphora Arg1:T1 Arg2:T17	
+R5	Produces Arg1:T17 Arg2:T5	
+R13	Produces Arg1:T17 Arg2:T6	
+R9	Produces Arg1:T17 Arg2:T9	
+R10	Produces Arg1:T17 Arg2:T15	
+R11	Produces Arg1:T17 Arg2:T16	
+R12	Produces Arg1:T17 Arg2:T14	
