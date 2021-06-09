@@ -1,0 +1,18 @@
+How install brat?
+
+0) Download version 1.3 from https://brat.nlplab.org/
+
+In a terminal, ejecute the following commands:
+
+1) tar xzf brat-v1.3_Crunchy_Frog.tar.gz
+
+2) cd brat-v1.3_Crunchy_Frog
+
+3) ./install.sh -u
+
+4) python2.7 standalone.py  (this is the c command that you have to execute to run the annotation brat tool). The terminal shows a message with the address of the web service (for example, http://127.0.0.1:8001)
+
+
+5) Open your browser this address (http://127.0.0.1:8001). Now you can use it!!!.
+
+In the folder examples_data, there are already corpora annotated with brat. You can also copy your text files into a subfolder of data and start to annotate them. 
