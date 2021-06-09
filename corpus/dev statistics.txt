@@ -1,0 +1,14 @@
+Type	Number
+ANAPHOR	151
+Anaphora	151
+DISEASE	230
+Increases_risk_of	22
+Is_a	88
+Is_acron	34
+Is_synon	16
+Produces	556
+RAREDISEASE	480
+SIGN	528
+SKINRAREDISEASE	45
+SYMPTOM	24
+TOTAL	2325
