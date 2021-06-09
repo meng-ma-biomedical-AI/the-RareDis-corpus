@@ -1,0 +1,27 @@
+T1	SIGN 0 6	Ataxia
+T3	SKINRAREDISEASE 0 21	Ataxia telangiectasia
+T5	SIGN 228 234	ataxia
+T8	SIGN 769 775	Ataxia
+T10	SKINRAREDISEASE 769 790	Ataxia telangiectasia
+T2	SKINRAREDISEASE 23 25	AT
+T4	DISEASE 40 74	genetic neurodegenerative disorder
+T14	SIGN 429 466	cellular and humoral immunodeficiency
+T16	SKINRAREDISEASE 594 596	AT
+T7	DISEASE 647 659;674 676;758 767	malignancies of the brain
+T9	DISEASE 743 751	leukemia
+T19	RAREDISEASE 699 708	lymphomas
+T21	SIGN 359 373	telangiectasia
+T22	DISEASE 550 574	sinopulmonary infections
+R1	Produces Arg1:T3 Arg2:T1	
+R2	Is_acron Arg1:T2 Arg2:T3	
+R3	Is_a Arg1:T3 Arg2:T4	
+T25	ANAPHOR 135 147	The disorder
+R4	Anaphora Arg1:T3 Arg2:T25	
+R5	Produces Arg1:T25 Arg2:T5	
+R7	Produces Arg1:T25 Arg2:T21	
+R6	Produces Arg1:T25 Arg2:T14	
+R10	Increases_risk_of Arg1:T16 Arg2:T7	
+R12	Produces Arg1:T10 Arg2:T8	
+R9	Increases_risk_of Arg1:T16 Arg2:T19	
+R11	Increases_risk_of Arg1:T16 Arg2:T9	
+R8	Increases_risk_of Arg1:T25 Arg2:T22	

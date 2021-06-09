@@ -1,0 +1,5 @@
+T1	RAREDISEASE 21 25	aHUS
+T2	RAREDISEASE 463 467	aHUS
+T3	RAREDISEASE 517 542	hemolytic uremic syndrome
+T4	ANAPHOR 357 369	the disorder
+R1	Anaphora Arg1:T1 Arg2:T4	

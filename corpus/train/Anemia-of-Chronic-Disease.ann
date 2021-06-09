@@ -1,0 +1,58 @@
+T1	RAREDISEASE 0 25	Anemia of chronic disease
+T5	DISEASE 182 188	cancer
+T6	DISEASE 259 279	rheumatoid arthritis
+T7	DISEASE 283 288	lupus
+T8	DISEASE 290 296	Anemia
+T11	DISEASE 505 511	anemia
+T12	SYMPTOM 565 572	fatigue
+T14	SIGN 596 602	pallor
+T15	SYMPTOM 608 623	lightheadedness
+T20	DISEASE 814 820	anemia
+T21	SYMPTOM 913 920	fatigue
+T23	SIGN 944 950	pallor
+T24	SYMPTOM 953 968	lightheadedness
+T25	SYMPTOM 970 989	shortness of breath
+T26	SYMPTOM 1009 1021	irritability
+T27	SYMPTOM 1023 1033	chest pain
+T28	DISEASE 1133 1139	anemia
+T30	DISEASE 1240 1263	mild or moderate anemia
+T39	DISEASE 1763 1769	anemia
+T40	DISEASE 1797 1819	iron-deficiency anemia
+T2	RAREDISEASE 43 65	anemia of inflammation
+T3	DISEASE 198 208	infections
+T4	SIGN 317 358	low levels of circulating red blood cells
+T45	SIGN 317 330;362 372	low levels of hemoglobin
+T9	RAREDISEASE 423 448	Anemia of chronic disease
+T10	RAREDISEASE 662 687	anemia of chronic disease
+T16	RAREDISEASE 726 751	Anemia of chronic disease
+T17	RAREDISEASE 1289 1314	anemia of chronic disease
+T18	RAREDISEASE 1367 1392	Anemia of chronic disease
+T19	RAREDISEASE 1568 1593	anemia of chronic disease
+T29	RAREDISEASE 1687 1712	Anemia of chronic disease
+T31	RAREDISEASE 1836 1861	anemia of chronic disease
+T32	RAREDISEASE 2703 2728	anemia of chronic disease
+R1	Produces Arg1:T8 Arg2:T45	
+R2	Produces Arg1:T8 Arg2:T4	
+R7	Produces Arg1:T16 Arg2:T21	
+R9	Produces Arg1:T16 Arg2:T23	
+R10	Produces Arg1:T16 Arg2:T24	
+R11	Produces Arg1:T16 Arg2:T25	
+R12	Produces Arg1:T16 Arg2:T26	
+R13	Produces Arg1:T16 Arg2:T27	
+R14	Is_synon Arg1:T1 Arg2:T2	
+T33	DISEASE 214 250	autoimmune and inflammatory diseases
+T34	DISEASE 156 173	chronic illnesses
+R15	Is_a Arg1:T5 Arg2:T34	
+R16	Is_a Arg1:T6 Arg2:T33	
+R17	Is_a Arg1:T7 Arg2:T33	
+R18	Produces Arg1:T11 Arg2:T12	
+R20	Produces Arg1:T11 Arg2:T14	
+R21	Produces Arg1:T11 Arg2:T15	
+T36	DISEASE 1474 1504	chronic, inflammatory conditio
+T37	ANAPHOR 1530 1543	the condition
+R23	Anaphora Arg1:T18 Arg2:T37	
+R24	Increases_risk_of Arg1:T36 Arg2:T37	
+T38	ANAPHOR 1639 1641	it
+R25	Anaphora Arg1:T19 Arg2:T38	
+R26	Is_a Arg1:T29 Arg2:T39	
+R3	Is_a Arg1:T40 Arg2:T39	

@@ -1,0 +1,16 @@
+T1	RAREDISEASE 0 18	Agammaglobulinemia
+T2	RAREDISEASE 638 664	Primary Agammaglobulinemia
+T3	ANAPHOR 785 798	this disorder
+R1	Anaphora Arg1:T2 Arg2:T3	
+T4	DISEASE 33 62	inherited immune deficiencies
+R2	Is_a Arg1:T1 Arg2:T4	
+T5	SIGN 82 126	low concentration of antibodies in the blood
+T6	SIGN 138 181	lack of particular lymphocytes in the blood
+T7	SIGN 139 175;186 191	ack of particular lymphocytes in the lymph
+R3	Produces Arg1:T1 Arg2:T5	
+R4	Produces Arg1:T1 Arg2:T7	
+R5	Produces Arg1:T1 Arg2:T6	
+T8	SIGN 473 516;518 522	precursor cells that produce gammaglobulins fail
+R6	Produces Arg1:T1 Arg2:T8	
+T9	SIGN 566 597;629 636	the deficiency in the number of B cells
+R7	Produces Arg1:T1 Arg2:T9	

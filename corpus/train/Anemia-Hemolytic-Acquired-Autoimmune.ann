@@ -1,0 +1,19 @@
+T1	SIGN 96 105	hemolysis
+T2	DISEASE 568 574	anemia
+T3	RAREDISEASE 712 739	autoimmune hemolytic anemia
+T6	RAREDISEASE 999 1015	hemolytic anemia
+T7	RAREDISEASE 1132 1148	hemolytic anemia
+T8	RAREDISEASE 1306 1333	autoimmune hemolytic anemia
+T9	RAREDISEASE 4 32	autoimmune hemolytic anemias
+T10	RAREDISEASE 170 196	Acquired hemolytic anemias
+T11	RAREDISEASE 224 263	Idiopathic acquired autoimmune diseases
+T4	RAREDISEASE 846 876	Cold antibody hemolytic anemia
+T5	RAREDISEASE 920 950	warm antibody hemolytic anemia
+R1	Produces Arg1:T9 Arg2:T1	
+T12	ANAPHOR 555 574	this type of anemia
+T13	ANAPHOR 768 770	it
+R3	Anaphora Arg1:T3 Arg2:T13	
+R2	Anaphora Arg1:T3 Arg2:T12	
+T14	SIGN 1236 1276	certain antibodies is higher than normal
+R4	Produces Arg1:T8 Arg2:T14	
+R5	Is_a Arg1:T12 Arg2:T2	

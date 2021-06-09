@@ -1,0 +1,29 @@
+T1	SYMPTOM 480 487	fatigue
+T2	SYMPTOM 517 525	weakness
+T3	SIGN 527 551	Enlargement of the liver
+T4	DISEASE 649 662	heart disease
+T5	DISEASE 682 696	kidney failure
+T6	RAREDISEASE 728 748	sideroblastic anemia
+T7	RAREDISEASE 4 25	sideroblastic anemias
+T8	SIGN 115 133;98 104	to make hemoglobin unable
+T9	SIGN 283 301	ringed sideroblast
+T10	RAREDISEASE 334 355	sideroblastic anemias
+T11	SIGN 489 511	breathing difficulties
+T12	SIGN 854 873	ringed sideroblasts
+T13	SIGN 527 545;555 561	Enlargement of the spleen
+R1	Produces Arg1:T7 Arg2:T8	
+R2	Produces Arg1:T7 Arg2:T9	
+R3	Produces Arg1:T10 Arg2:T1	
+R4	Produces Arg1:T10 Arg2:T11	
+R5	Produces Arg1:T10 Arg2:T2	
+R6	Produces Arg1:T10 Arg2:T13	
+R7	Produces Arg1:T10 Arg2:T3	
+R8	Produces Arg1:T6 Arg2:T12	
+T14	SIGN 599 636	increased levels of iron in the blood
+T15	SIGN 649 662	heart disease
+T16	SIGN 664 676	liver damage
+T17	SIGN 682 696	kidney failure
+R9	Produces Arg1:T6 Arg2:T14	
+R10	Produces Arg1:T6 Arg2:T15	
+R11	Produces Arg1:T6 Arg2:T17	
+R12	Produces Arg1:T6 Arg2:T16	

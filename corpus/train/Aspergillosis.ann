@@ -1,0 +1,13 @@
+T2	RAREDISEASE 288 301	aspergillosis
+T3	RAREDISEASE 317 330	Aspergillosis
+T4	RAREDISEASE 369 408	Allergic bronchopulmonary aspergillosis
+T5	RAREDISEASE 492 505	aspergillosis
+T6	RAREDISEASE 563 585	Invasive aspergillosis
+T7	RAREDISEASE 620 633	Aspergillosis
+T1	RAREDISEASE 0 25	Aspergillus Aspergillosis
+T8	DISEASE 36 52	fungal infection
+R1	Is_a Arg1:T1 Arg2:T8	
+T9	ANAPHOR 93 107	this infection
+R2	Anaphora Arg1:T1 Arg2:T9	
+T10	ANAPHOR 187 201	this infection
+R3	Anaphora Arg1:T1 Arg2:T10	

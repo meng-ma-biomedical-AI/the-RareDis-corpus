@@ -1,0 +1,31 @@
+T1	DISEASE 0 20	Megaloblastic anemia
+T2	DISEASE 299 305	Anemia
+T3	SYMPTOM 588 595	fatigue
+T5	SIGN 619 625	pallor
+T6	SYMPTOM 628 643	lightheadedness
+T7	DISEASE 669 689	Megaloblastic anemia
+T8	DISEASE 899 919	Megaloblastic anemia
+T9	DISEASE 1050 1070	megaloblastic anemia
+T10	DISEASE 1244 1264	megaloblastic anemia
+T11	DISEASE 1505 1525	megaloblastic anemia
+T12	DISEASE 1569 1586	folate deficiency
+T13	DISEASE 1603 1623	megaloblastic anemia
+T14	DISEASE 1715 1735	cobalamin deficiency
+T15	SIGN 136 148;49 69	megaloblasts bone marrow produces
+T16	SYMPTOM 1143 1155	asymptomatic
+T17	SIGN 1454 1486	large, misshapen red blood cells
+R1	Produces Arg1:T1 Arg2:T15	
+R2	Produces Arg1:T2 Arg2:T3	
+R5	Produces Arg1:T2 Arg2:T6	
+R6	Produces Arg1:T9 Arg2:T16	
+T19	DISEASE 1556 1565;1576 1586	cobalamin deficiency
+T18	SIGN 342 384	low levels of circulating, red blood cells
+R8	Produces Arg1:T2 Arg2:T18	
+T20	ANAPHOR 964 966	It
+R9	Anaphora Arg1:T8 Arg2:T20	
+T21	SIGN 521 573	deficiency in healthy, fully-matured red blood cells
+R10	Produces Arg1:T2 Arg2:T21	
+R7	Produces Arg1:T11 Arg2:T17	
+R11	Increases_risk_of Arg1:T12 Arg2:T13	
+R12	Increases_risk_of Arg1:T19 Arg2:T13	
+R3	Produces Arg1:T2 Arg2:T5	

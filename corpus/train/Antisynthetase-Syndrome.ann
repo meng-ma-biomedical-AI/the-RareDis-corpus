@@ -1,0 +1,48 @@
+T1	RAREDISEASE 0 23	Antisynthetase syndrome
+T2	SIGN 152 164	inflammation
+T4	DISEASE 450 458	myositis
+T6	RAREDISEASE 509 534	interstitial lung disease
+T7	SYMPTOM 773 780	fatigue
+T8	SIGN 817 828	weight loss
+T9	RAREDISEASE 883 906	Antisynthetase syndrome
+T10	RAREDISEASE 1003 1018	dermatomyositis
+T11	RAREDISEASE 1022 1034	polymyositis
+T12	RAREDISEASE 1036 1059	Antisynthetase syndrome
+T13	RAREDISEASE 1373 1396	antisynthetase syndrome
+T14	SIGN 180 221	abnormal functioning of the immune system
+T15	SIGN 450 458	myositis
+T16	DISEASE 493 506	polyarthritis
+T17	SIGN 493 506	polyarthritis
+T18	SIGN 509 534	interstitial lung disease
+T19	SIGN 536 584	thickening and cracking of the skin of the hands
+T20	SIGN 609 627	Raynaud phenomenon
+T21	DISEASE 609 627	Raynaud phenomenon
+T22	SIGN 794 800	fevers
+T23	DISEASE 969 997	inflammatory muscle diseases
+R6	Produces Arg1:T1 Arg2:T17	
+R7	Produces Arg1:T1 Arg2:T18	
+R8	Produces Arg1:T1 Arg2:T19	
+R9	Produces Arg1:T1 Arg2:T20	
+R10	Produces Arg1:T1 Arg2:T7	
+R11	Produces Arg1:T1 Arg2:T22	
+R12	Produces Arg1:T1 Arg2:T8	
+R13	Is_a Arg1:T10 Arg2:T23	
+R14	Is_a Arg1:T11 Arg2:T23	
+T24	ANAPHOR 98 110	The disorder
+R1	Anaphora Arg1:T1 Arg2:T24	
+R2	Produces Arg1:T24 Arg2:T2	
+R15	Produces Arg1:T24 Arg2:T14	
+T25	ANAPHOR 1253 1265	the disorder
+R16	Anaphora Arg1:T12 Arg2:T25	
+T26	DISEASE 35 51	chronic disorder
+R17	Is_a Arg1:T1 Arg2:T26	
+T27	SIGN 242 308	specific autoantibodies that target a specific protein in the body
+R18	Produces Arg1:T24 Arg2:T27	
+T28	ANAPHOR 339 351	the disorder
+R19	Anaphora Arg1:T1 Arg2:T28	
+T29	SIGN 642 666;695 714	fingers or toes are numb in response to cold
+R20	Produces Arg1:T21 Arg2:T29	
+T30	SIGN 642 657;670 714	fingers or toes have a prickly sensation in response to cold
+R21	Produces Arg1:T28 Arg2:T29	
+R22	Produces Arg1:T28 Arg2:T30	
+R4	Produces Arg1:T28 Arg2:T15	

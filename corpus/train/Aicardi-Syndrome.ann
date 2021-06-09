@@ -1,0 +1,39 @@
+T1	RAREDISEASE 0 16	Aicardi syndrome
+T2	SIGN 133 141	epilepsy
+T3	SIGN 143 166	intellectual disability
+T5	SIGN 232 244	microcephaly
+T6	SIGN 270 284	microphthalmia
+T7	RAREDISEASE 454 470	Aicardi syndrome
+T8	RAREDISEASE 516 532	Aicardi syndrome
+T9	RAREDISEASE 630 646	Aicardi syndrome
+T10	DISEASE 708 728	Klinefelter syndrome
+T11	RAREDISEASE 747 763	Aicardi syndrome
+T12	RAREDISEASE 831 847	Aicardi syndrome
+T13	RAREDISEASE 1127 1143	Aicardi syndrome
+T14	RAREDISEASE 1291 1307	Aicardi syndrome
+T15	SIGN 37 62	involuntary muscle spasms
+T16	SIGN 194 203	hypotonia
+T20	SIGN 361 370	colobomas
+T21	SIGN 380 405	abnormalities of the ribs
+T22	SIGN 488 514	delay in motor development
+T23	DISEASE 600 628	upper respiratory infections
+T24	SIGN 1218 1226	seizures
+T19	SIGN 380 396;413 426	abnormalities of spinal column
+T25	DISEASE 730 736	47,XXY
+T26	SIGN 1342 1355;1366 1373;1375 1392	cream-colored lucunae within the retina
+T27	DISEASE 133 141	epilepsy
+R1	Produces Arg1:T1 Arg2:T15	
+R2	Produces Arg1:T1 Arg2:T2	
+R3	Produces Arg1:T1 Arg2:T3	
+R5	Produces Arg1:T1 Arg2:T16	
+R10	Produces Arg1:T1 Arg2:T20	
+R11	Produces Arg1:T1 Arg2:T19	
+R12	Produces Arg1:T1 Arg2:T21	
+R13	Produces Arg1:T7 Arg2:T22	
+R14	Increases_risk_of Arg1:T8 Arg2:T23	
+R15	Produces Arg1:T13 Arg2:T24	
+R16	Produces Arg1:T14 Arg2:T26	
+R17	Is_synon Arg1:T25 Arg2:T10	
+R18	Increases_risk_of Arg1:T10 Arg2:T11	
+R9	Produces Arg1:T1 Arg2:T6	
+R4	Produces Arg1:T1 Arg2:T5	
